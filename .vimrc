@@ -21,3 +21,11 @@ set softtabstop =4
 set shiftwidth  =4
 set expandtab
 
+" show line numbers
+set number
+
+" colorscheme
+colorscheme neverland-darker
+
+" Vim status bar working correctly with lightline + tmux
+set laststatus=2
