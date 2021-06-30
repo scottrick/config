@@ -8,6 +8,7 @@ set path+=**
 
 " display all matching files when searching
 set wildmenu
+set wildmode=longest,list
 
 set incsearch
 set hlsearch
