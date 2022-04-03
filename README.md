@@ -21,3 +21,8 @@
     install color themes -> neverland-vim-theme
         pull from my git branch
 
+
+ * Ubuntu
+    Adjust swappiness to 10
+    https://askubuntu.com/questions/103915/how-do-i-configure-swappiness
+
