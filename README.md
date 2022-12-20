@@ -50,3 +50,13 @@ Install terminal font:
     Formatter
         clang-format
         rustfmt
+
+  :TSInstall rust
+  :TSInstall lua
+  :TSInstall cpp
+
+  rustup component add rust-src
+  rustup component add rust-analyzer
+
+  :CocInstall coc-rust-analyzer
+
