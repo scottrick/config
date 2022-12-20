@@ -7,13 +7,13 @@
     to REMEMBER github personal auth token:
     git config --global credential.helper store
  
- * .zshrc
- * .vimrc
- 
  * Terminal
     * Colors: https://github.com/Mayccoll/Gogh
         SolarizedDarkHigherContrast
 
+ * .zshrc
+ * .vimrc
+ 
 ### Hide user@computer_name in terminal
  * export DEFAULT_USER="scottrick"
 
@@ -21,8 +21,32 @@
     install color themes -> neverland-vim-theme
         pull from my git branch
 
+### Neovim
 
- * Ubuntu
-    Adjust swappiness to 10
-    https://askubuntu.com/questions/103915/how-do-i-configure-swappiness
+Update ~/.config/nvim/init.vim
 
+Install terminal font:
+    nerd font -> has extra fancy characters for file tree, etc
+
+    nerdfonts.com
+    Hack Nerd Font, Mono
+
+## VimPlug
+
+ https://github.com/junegunn/vim-plug
+
+ :PlugInstall
+ :PlugUpdate
+
+ :Mason
+    LSP
+        clangd
+        rust-analyzer
+    DAP
+        codelldb
+        cpptools
+    Linter
+        cpplint
+    Formatter
+        clang-format
+        rustfmt
