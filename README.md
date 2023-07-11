@@ -31,6 +31,13 @@ Install terminal font:
     nerdfonts.com
     Hack Nerd Font, Mono
 
+## Ubuntu
+
+Remap CAPS to control
+
+* install gnome-tweaks -> sudo apt install gnome-tweaks
+* remap with gnome tweaks
+
 ## VimPlug
 
  https://github.com/junegunn/vim-plug
