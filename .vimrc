@@ -30,3 +30,6 @@ colorscheme neverland-darker
 
 " Vim status bar working correctly with lightline + tmux
 set laststatus=2
+
+" remember the last 200 ex commands
+set history=200
