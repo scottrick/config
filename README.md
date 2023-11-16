@@ -9,7 +9,10 @@
  
  * Terminal
     * Colors: https://github.com/Mayccoll/Gogh
-        SolarizedDarkHigherContrast
+        new: Tokyo Night
+        old: SolarizedDarkHigherContrast
+    * Font: DejaVuSansMono Nerd Font
+        https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono
 
  * .zshrc
  * .vimrc
@@ -24,12 +27,6 @@
 ### Neovim
 
 Update ~/.config/nvim/init.vim
-
-Install terminal font:
-    nerd font -> has extra fancy characters for file tree, etc
-
-    nerdfonts.com
-    Hack Nerd Font, Mono
 
 ## Ubuntu
 
