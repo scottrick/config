@@ -9,8 +9,7 @@
  
  * Terminal
     * Colors: https://github.com/Mayccoll/Gogh
-        new: Tokyo Night
-        old: SolarizedDarkHigherContrast
+        * either: Tokyo Night or SolarizedDarkHigherContrast
     * Font: DejaVuSansMono Nerd Font
         https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono
 
