@@ -20,13 +20,13 @@
 ### Hide user@computer_name in terminal
  * export DEFAULT_USER="scottrick"
 
- * Vim
-    install color themes -> neverland-vim-theme
-        pull from my git branch
-
+### Vim
+ * Tokyo Night theme
+ * .vimrc
+    
 ### Neovim
-
-Update ~/.config/nvim/init.vim
+ * Tokyo Night theme
+ * Update ~/.config/nvim/init.vim
 
 ## Ubuntu
 
