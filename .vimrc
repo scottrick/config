@@ -16,5 +16,6 @@ set number
 call plug#begin()
 
 Plug 'tpope/vim-sensible'
+Plug 'vimwiki/vimwiki'
 
 call plug#end()
