@@ -1,18 +1,3 @@
-set nocompatible
-
-syntax enable
-filetype plugin on
-
-" Search subfolders, provides tab completion for file tasks
-set path+=**
-
-" display all matching files when searching
-set wildmenu
-set wildmode=longest,list
-
-set incsearch
-set hlsearch
-
 " tabstop:          Width of tab character
 " softtabstop:      Fine tunes the amount of white space to be added
 " shiftwidth        Determines the amount of whitespace to add in normal mode
@@ -26,10 +11,10 @@ set expandtab
 set number
 
 " colorscheme
-colorscheme neverland-darker
+" colorscheme neverland-darker
 
-" Vim status bar working correctly with lightline + tmux
-set laststatus=2
+call plug#begin()
 
-" remember the last 200 ex commands
-set history=200
+Plug 'tpope/vim-sensible'
+
+call plug#end()
